@@ -1,6 +1,6 @@
 Class WhatIsGit
   def about
-    puts 'URL'
+    puts 'en.URL'
   end
   
   def show
