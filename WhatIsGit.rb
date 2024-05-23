@@ -1,6 +1,6 @@
-class WhatIsGit
+Class WhatIsGit
   def about(lang = 'en')
-    puts #{lang}.URL'
+    puts '#{lang}.URL'
   end
   
   def show
@@ -11,6 +11,10 @@ class WhatIsGit
       puts 'Git is difficult...'
     end
   end
+
+  private
+    def input(message)
+      puts message
+      gets.chomp.donwcase
+    end
 end
-
-
