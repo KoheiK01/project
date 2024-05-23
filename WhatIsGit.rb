@@ -1,9 +1,16 @@
-Class WhatIsGit
+class WhatIsGit
   def about(lang = 'en')
-    puts '#{lang}.URL'
+    puts #{lang}.URL'
   end
-
+  
   def show
-    puts 'If you understand the basis, git is easy.'
+    case input 'Do you understand the basis? [yes/no]'
+    when 'yes'
+      puts 'Git is easy'
+    else
+      puts 'Git is difficult...'
+    end
   end
 end
+
+
