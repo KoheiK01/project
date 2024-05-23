@@ -2,8 +2,8 @@ Class WhatIsGit
   def about(lang = 'en')
     puts '#{lang}.URL'
   end
-  
-  def show
-    puts 'git is easy if you understand the basis.'
+
+  def show(msg = 'easy!')
+    puts 'Git is #{msg}.'
   end
 end
