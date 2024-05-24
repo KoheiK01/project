@@ -15,6 +15,6 @@ class WhatIsGit
   private
     def input(message)
       puts message
-      gets.chomp.donwcase
+      gets.chomp.downcase
     end
 end
