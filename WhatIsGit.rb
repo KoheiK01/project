@@ -4,8 +4,8 @@ class WhatIsGit
   end
   
   def show
-    case input 'Do you understand the basis? [yes/no]'
-    when 'y'
+    case input 'Do you understand the basis of Git? [yes/no]'
+    when 'yes','y'
       puts 'Git is easy'
     else
       puts 'Git is difficult...'
