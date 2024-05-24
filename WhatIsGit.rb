@@ -1,4 +1,4 @@
-Class WhatIsGit
+class WhatIsGit
   def about(lang = 'en')
     puts '#{lang}.URL'
   end
