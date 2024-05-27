@@ -1,5 +1,8 @@
 class WhatIsGit
-  def about(lang = 'en')
+  def about(lang = nil)
+    if lang==nil then
+      lang = language
+    end
     puts "#{lang}.URL"
   end
   
@@ -17,4 +20,8 @@ class WhatIsGit
       puts message
       gets.chomp.downcase
     end
+
+    def language
+    end
+    
 end
