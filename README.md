@@ -1,4 +1,4 @@
-# project_gitPractice
+# project_git_practice
 実際に動くものではない．Gitの練習用
 
 ## 経緯
